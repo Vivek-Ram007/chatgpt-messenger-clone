@@ -44,7 +44,7 @@ const ChatInput = ({ chatId }: Props) => {
         prompt: input,
         chatId,
         model,
-        name:USER_NAME,
+        name: USER_NAME,
       }),
     }).then(() =>
       toast.success('ChatGPT has responded', {

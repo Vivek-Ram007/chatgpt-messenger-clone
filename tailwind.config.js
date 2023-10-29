@@ -16,6 +16,9 @@ module.exports = {
         xxs: '10rem',
         xs: '20rem',
       },
+      maxWidth:{
+        xxs:"10rem"
+      },
       colors: {
         theme: {
           DEFAULT: '#343541',
