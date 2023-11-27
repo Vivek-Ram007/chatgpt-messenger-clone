@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "publishConfig": {
+    "@types:registry": "https://registry.npmjs.org/",
+    "@heroicons:registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@types/node": "20.8.3",
